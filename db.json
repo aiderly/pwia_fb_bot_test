@@ -1,33 +1,19 @@
 {
     "version": "v2",
     "content": {
-        "messages": [
-            {
-               "type": "text",
-               "text": "simple text"    
-            },
-            {
-                ...Another messages
-            }
-        ],
-        "actions": [  //optional
-            {
-                "action": "add_tag",
-                "tag_name": "example tag"
-            },
-            {
-                ...Another actions
-            }
-        ],
-        "quick_replies": [ //optional
-            {
-                    "type": "node",
-                    "caption": "Quick reply text",
-                    "target": "My Content"
-            },
-            {
-                ...Another quick replies
-            }
-        ]
+        {
+           "type": "list",
+           "top_element_style": "compact", //optional, default "compact"
+           "buttons": [], //optional
+           "elements": [
+             {
+                "title": "list title1",
+                "subtitle": "list substitle2",
+                "image_url": "https://manybot-thumbnails.s3.eu-central-1.amazonaws.com/ca/xxxxxxzzzzzzzzz.png"
+                "action_url": "https://manychat.com", //optional
+                "buttons": [] //optional
+             }
+           ]
+         }
     }
 }
