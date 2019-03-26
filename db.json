@@ -1,7 +1,6 @@
 {
     "version": "v2",
     "content": {
-        {
            "type": "list",
            "top_element_style": "compact", //optional, default "compact"
            "buttons": [], //optional
@@ -14,6 +13,5 @@
                 "buttons": [] //optional
              }
            ]
-         }
     }
 }
