@@ -2,15 +2,15 @@
     "version": "v2",
     "content": {
            "type": "list",
-           "top_element_style": "compact", //optional, default "compact"
-           "buttons": [], //optional
+           "top_element_style": "compact",
+           "buttons": [],
            "elements": [
              {
                 "title": "list title1",
                 "subtitle": "list substitle2",
-                "image_url": "https://manybot-thumbnails.s3.eu-central-1.amazonaws.com/ca/xxxxxxzzzzzzzzz.png"
-                "action_url": "https://manychat.com", //optional
-                "buttons": [] //optional
+                "image_url": "https://manybot-thumbnails.s3.eu-central-1.amazonaws.com/ca/xxxxxxzzzzzzzzz.png",
+                "action_url": "https://manychat.com",
+                "buttons": []
              }
            ]
     }
